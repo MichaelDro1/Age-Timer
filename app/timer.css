@@ -1,0 +1,13 @@
+h1 {
+    text-align:center;
+}
+div{
+    text-align:center;
+}
+.container{
+    display:flex; 
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    height:800px
+}

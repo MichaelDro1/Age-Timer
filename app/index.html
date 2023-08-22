@@ -5,8 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Age Timer</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="timer.css">
   </head>
   <body>
+    <div class="container">
+    <h1>Age Timer</h1>
+      <label for="birth-time">Choose your birth date and time:</label>
+      <input
+      type="datetime-local"
+      id="birth-time"
+      name="meeting-time"
+      min="1900-01-01T00:00"
+      max="2023-08-21T00:00"
+    />
+    <div><button type="button">Go</button></div>
+    </div>
   </body>
 </html>
